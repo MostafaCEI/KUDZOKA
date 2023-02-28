@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-image: url(img/blue_bg.png) , url(img/waves.png) , url(img/second_section_.png) , url(img/Group 1131.png) ;*/
+}
+
+
+
+/*nav start*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+/*nav lift*/
+nav .nav_lift {
+    display: flex;
+    
+}
+
+
+nav .nav_lift a {
+    position: relative;
+    top: 85px;
+    font-size: 70px;
+    display: flex;
+    margin-left: 70px;
+    text-decoration: none;
+    color: rgb(92, 143, 167);
+    
+}
+
+/*nav right*/
+nav .nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 300px;
+}
+
+.nav_right button {
+    font-size: 70px;
+    padding: 10px 70px;
+    border-radius: 50px 50px ;
+    border-style: none;
+    background-color: rgb(222, 234, 234);
+}
+
+
+
